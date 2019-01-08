@@ -1,0 +1,29 @@
+body {
+    font-size: .7em;
+    background-color: rgb(240, 206, 120)
+}
+#container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.clearfix {
+    clear: both;
+    overflow: auto;
+}
+
+#input {
+    text-align: center;
+}
+
+#burgers {
+    padding: 10px;
+    float: left;
+    width: 40%
+}
+
+#eaten {
+    padding: 10px;
+    float: right;
+    width: 40%
+}

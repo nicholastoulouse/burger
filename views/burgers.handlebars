@@ -1,0 +1,17 @@
+<img src="../assets/images/burger.jpg" alt="burger logo"/>
+<h1>Eat-a-burger</h1>
+<div id="burgers">
+    {{#each data }}
+        <textarea rows="3" cols="40">{{this.burger_name}}</textarea>
+        <button id="devour">Devour it!</button><br />
+    {{/each}}
+</div>
+
+<br class="clearfix" />
+<div id="input">
+    <form action='/insert-burger' method="GET" id="newburger">
+        <textarea rows="4" name="nam" placeholder="Enter a new burger" cols="50"></textarea>
+        <button id="submit">submit</button>
+        <p>Enter a burger you want to eat Click the "Submit" button</p>
+    </form>
+</div>
